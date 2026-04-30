@@ -89,17 +89,22 @@ streamlit run app.py
 🔑 API Key Setup (Required)
 ````
 This project uses OpenWeatherMap API.
-
+```
 Steps:
 Go to https://openweathermap.org/api
 Sign up and generate API key
 Open app.py
 Replace:
 API_KEY = "YOUR_API_KEY"
+```
+
 📈 Model Performance
+```
 MAE: ~8–10 (varies by dataset split)
 RMSE: ~12–13
 R² Score: ~0.97+
+```
+
 📊 Explainability (SHAP)
 
 The model uses SHAP to explain predictions:
@@ -107,14 +112,18 @@ The model uses SHAP to explain predictions:
 Shows how each feature impacts AQI prediction
 Highlights lag features as most important
 Provides visual bar chart explanation
+
 🌍 Key Insights
+
 Past AQI values (lag features) are the strongest predictors
 Seasonal and weekly patterns affect pollution levels
 Weather conditions slightly influence AQI trends
+
 ⚠️ Notes
 Model is trained on historical city-level AQI dataset
 API-based weather features enhance real-time prediction
 Ensure correct feature order during prediction
+
 👨‍💻 Author
 
 Atifa Nawaz
