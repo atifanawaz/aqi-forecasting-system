@@ -64,7 +64,7 @@ It is designed as a **real-world ML deployment system** with both prediction and
 
 ## 📁 Project Structure
 
-
+```
 AQI Project/
 │
 ├── app.py # Streamlit web application
@@ -72,7 +72,7 @@ AQI Project/
 ├── city_day.csv # Dataset (if included)
 ├── requirements.txt # Dependencies
 └── README.md # Documentation
-
+```
 
 ---
 
@@ -87,7 +87,7 @@ python -m pip install -r requirements.txt
 3. Run Streamlit App
 streamlit run app.py
 🔑 API Key Setup (Required)
-
+````
 This project uses OpenWeatherMap API.
 
 Steps:
