@@ -120,12 +120,13 @@ Seasonal and weekly patterns affect pollution levels
 Weather conditions slightly influence AQI trends
 
 ⚠️ Notes
+
 Model is trained on historical city-level AQI dataset
 API-based weather features enhance real-time prediction
 Ensure correct feature order during prediction
 
 👨‍💻 Author
 
-Atifa Nawaz
-Bahria University (Karachi Campus)
-Data Science Project – 10Pearls Shine Program
+- Atifa Nawaz
+- Bahria University (Karachi Campus)
+- Data Science Project – 10Pearls Shine Program
